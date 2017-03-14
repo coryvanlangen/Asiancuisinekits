@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Act Global</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="myStyles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html" style="color:#0d0c30;font-family: 'Russo One', sans-serif;" id="title">Act Globally</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li class=""><a href="shop.html" id="forumLink">Shop<span class="sr-only">(current)</span></a></li>
+                        <li><a href="artists.html" id="appLink">Artistsans</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="row" id="home">
+            <div class="col-xs-12 col-lg-12 col-md-12">
+                <h1>Artisans</h1>
+                
+            </div>
+            <div class="col-xs-12 col-lg-4 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h3 class="panel-title">John Doe</h3></div>
+                    <div class="panel-body">
+                        <img src="http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg" width="100%" class="img-circle">
+                        <center>
+                            <form method="get" action="artists.html">
+                                <input type="hidden" name="mode" value="moreInfo"/>
+                                <input type="hidden" name="name" value="Jonh Doe"/>
+                                <input type="submit" class="btn btn-success" value="Learn More!"/>
+                            </form>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h3 class="panel-title">Alan Turing</h3></div>
+                    <div class="panel-body">
+                        <img src="http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg" width="100%" class="img-circle">
+                        <center>
+                            <form method="get" action="artists.html">
+                                <input type="hidden" name="mode" value="moreInfo"/>
+                                <input type="hidden" name="name" value="Alan Turing"/>
+                                <input type="submit" class="btn btn-success" value="Learn More!"/>
+                            </form>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h3 class="panel-title">Robert Babbage</h3></div>
+                    <div class="panel-body">
+                        <img src="http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg" width="100%" class="img-circle">
+                        <center>
+                            <form method="get" action="artists.html">
+                                <input type="hidden" name="mode" value="moreInfo"/>
+                                <input type="hidden" name="name" value="Robert Babbage"/>
+                                <input type="submit" class="btn btn-success" value="Learn More!"/>
+                            </form>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div clas="row" id="moreInfo" style="display:none;">
+            <div class="col-xs-12">
+                <h1 style="display:inline;" id="infoName">Product Name</h1>
+                <button class="btn btn-success" style="display:inline;float:right;" id="infoDonate">Donate</button>
+            </div>
+            <div class="col-xs-6">
+                <img src="http://whysquare.co.nz/wp-content/uploads/2013/07/profile_square3-270x270.jpg" width="100%" class="img-circle">
+            </div>
+            <div class="col-xs-6">
+                <br>
+                <p>
+                As we advance in our quest for clear, forceful text, especially in online item descriptions, it’s clear that with a thesaurus and some ingenuity we can make our site copy much more engaging, entertaining, and effective.
+
+                In this installment, we’re going to look at better words to express beauty than the old standbys: “beautiful,” “pretty,” and “lovely.”
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script src="artists.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+html, body{
+    background-color: white;
+    
+}
+
+.navbar-custom{
+    background-color: #1e2023;
+    color:white;
+}
+
+ul.nav a:hover { 
+    color: black!important;
+    background-color: grey;
+}
+
+
+
+ul.nav a {
+    color : gray;
+}
