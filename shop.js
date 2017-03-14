@@ -55,6 +55,11 @@ window.onload = function(){
     }
     if(GetURLParameter("mode") != ""){
         pageMode = GetURLParameter("mode");
+    }else{
+        document.getElementById("home").style.display = "inline-block";
+    }
+    if(GetURLParameter("mode") == "home"){
+        document.getElementById("home").style.display = "inline-block";
     }
     if(pageMode == "moreInfo"){
         infoId = GetURLParameter("infoId");
