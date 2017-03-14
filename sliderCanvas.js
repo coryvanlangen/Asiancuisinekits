@@ -28,11 +28,21 @@ function draw(){
         slide2.height = window.innerHeight*0.3;
     }
     if(slide1.width !=0){
-        var newHeight = ((slide1.width)/slideImg1.width)*slideImg1.height;
-        context1.drawImage(slideImg1,0,0,slide1.width,newHeight);   
+        var picWidth = slide1.width;
+        var newHeight = ((picWidth)/slideImg1.width)*slideImg1.height;
+        while(newHeight < slide1.height){
+            picWidth++;
+            newHeight = ((picWidth)/slideImg1.width)*slideImg1.height;
+        }
+        context1.drawImage(slideImg1,0,0,picWidth,newHeight);   
     }
     if(slide2.width != 0){
-        var height2 = ((slide2.width)/slideImg2.width)*slideImg2.height;
-        context2.drawImage(slideImg2,0,0,slide2.width,height2);   
+        var picWidth2 = slide2.width;
+        var height2 = ((picWidth2)/slideImg2.width)*slideImg2.height;
+        while(height2<slide2.height){
+            picWidth2++;
+            height2 = ((picWidth2)/slideImg2.width)*slideImg2.height;
+        }
+        context2.drawImage(slideImg2,0,0,picWidth2,height2);   
     }    
 }

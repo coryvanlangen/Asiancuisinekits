@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
 html, body{
-    background-color: white;
-    font-family: 'Rubik Mono One', sans-serif;
+    
+    background-image: url('http://media.istockphoto.com/vectors/big-triangle-chevron-pattern-background-vector-id495122764?s=235x235');
+    font-family: 'Playfair Display SC', serif;
 }
 
 .navbar-custom{
@@ -12,6 +16,10 @@ html, body{
 ul.nav a:hover { 
     color: black!important;
     background-color: grey;
+}
+.sliderTitle{
+    color:#4286f4;
+    font-family: 'Yellowtail', cursive;
 }
 
 

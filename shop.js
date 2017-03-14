@@ -53,7 +53,7 @@ window.onload = function(){
         };
         allProducts[accId[i]] = productInfo;
     }
-    if(GetURLParameter("mode") != ""){
+    if(GetURLParameter("mode") != "" && GetURLParameter("mode") != undefined){
         pageMode = GetURLParameter("mode");
     }else{
         document.getElementById("home").style.display = "inline-block";

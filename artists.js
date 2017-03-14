@@ -22,7 +22,7 @@ window.onload = function(){
         document.getElementById("infoName").innerHTML = name;
         
     }
-    if(GetURLParameter("mode")=="" || GetURLParameter("mode")=="home"){
+    if(GetURLParameter("mode")=="" || GetURLParameter("mode")=="home" || GetURLParameter("mode")== undefined){
            document.getElementById("home").style.display = "inline-block";
     }
 }
