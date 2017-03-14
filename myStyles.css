@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
 html, body{
     background-color: white;
-    
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .navbar-custom{
