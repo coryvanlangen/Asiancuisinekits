@@ -30,6 +30,7 @@ ul.nav a {
 .navbar-simple .brand {
  	padding-top: 15px;
 	padding-bottom: 15px;
+	color: yellow;
 }
 .navbar-simple .navbar-inner {
 	background-color: #bc0936;
