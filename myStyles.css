@@ -7,18 +7,8 @@ html, body{
     background-image: url('https://thumbs.dreamstime.com/x/asian-seamless-pattern-style-red-orange-gradient-texture-web-print-wallpaper-textile-design-background-invitation-61503171.jpg');
     font-family: 'Playfair Display SC', serif;
 }
-
-.navbar-custom{
-    background-color: red;
-    color:white;
-}
-
-ul.nav a:hover { 
-    color: black!important;
-    background-color: grey;
-}
 .sliderTitle{
-    color:#4286f4;
+    color:yellow;
     font-family: 'Yellowtail', cursive;
 }
 
@@ -42,6 +32,7 @@ ul.nav a {
 }
 .navbar-simple .navbar-inner .nav {
 	float: right;
+	background-color: #bc0936;
 }
 .navbar-simple .navbar-inner .nav li a {
 	background-color: #bc0936;
